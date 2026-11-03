@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f6f1e8">
+    <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+    <title>Lorem ipsum dolor sit amet</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <header class="site-header">
+          <a class="brand" href="#inicio" aria-label="Lorem ipsum">
+            <span class="brand-mark" aria-hidden="true">✳</span>
+            <span>LOREM IPSUM</span>
+          </a>
+          <span class="header-note">LOREM IPSUM DOLOR</span>
+          <a class="header-link" href="#pintura">LOREM IPSUM <span aria-hidden="true">↘</span></a>
+        </header>
+
+        <div class="hero-art" id="inicio">
+          <img
+            class="hero-image"
+            src="assets/back-transparent.png"
+            alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            fetchpriority="high"
+          >
+        </div>
+
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> LOREM IPSUM DOLOR</p>
+          <h1 id="hero-title">Lorem ipsum<br>dolor sit<br><em>amet.</em></h1>
+          <p class="hero-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor.</p>
+          <a class="round-link" href="#pintura" aria-label="Lorem ipsum"><span aria-hidden="true">↓</span></a>
+        </div>
+
+        <div class="hero-footer" aria-hidden="true">
+          <span>01 — 02</span>
+          <span>LOREM IPSUM DOLOR SIT AMET</span>
+          <span>↓</span>
+        </div>
+      </section>
+
+      <section class="paint-stage" id="pintura" aria-labelledby="paint-title">
+        <div class="paint-frame">
+          <canvas class="paint-canvas" aria-hidden="true"></canvas>
+          <div class="paint-copy">
+            <p class="eyebrow paint-eyebrow"><span></span> LOREM IPSUM</p>
+            <h2 id="paint-title">Lorem ipsum<br><em>dolor sit.</em></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+            <span class="scroll-meter" role="progressbar" aria-label="Lorem ipsum" aria-valuemin="0" aria-valuemax="100">
+              <span class="scroll-meter-fill"></span>
+            </span>
+            <span class="scroll-label">LOREM IPSUM</span>
+          </div>
+          <!-- <div class="painted-words" aria-label="Lorem ipsum">
+            <p class="painted-word" data-start="0.35">LOREM IPSUM</p>
+            <p class="painted-word painted-word-emphasis" data-start="0.48">DOLOR SIT.</p>
+          </div> -->
+          <span class="paint-index" aria-hidden="true">02 / 02</span>
+        </div>
+      </section>
+
+      <section class="tool-showcase" aria-labelledby="tools-title">
+        <div class="tools-heading">
+          <div>
+            <p class="eyebrow"><span></span> LOREM IPSUM DOLOR</p>
+            <h2 id="tools-title">Lorem ipsum<br><em>dolor sit.</em></h2>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
+        </div>
+
+        <div class="tool-sections">
+          <section class="tool-section tool-section-brush" aria-labelledby="tool-brush-title">
+            <div class="tool-visual">
+              <span class="tool-number">01</span>
+              <svg class="tool-paint-trail" viewBox="0 0 500 360" aria-hidden="true">
+                <path d="M18 238C112 130 172 270 263 160S389 62 490 117" fill="none" stroke="#168bd0" stroke-width="31" opacity=".34"/>
+                <path d="M7 208C111 96 194 255 281 146S405 44 492 98" fill="none" stroke="#e5233c" stroke-width="14" opacity=".7"/>
+                <path d="M25 265C121 161 196 292 289 190S403 91 488 143" fill="none" stroke="#f0bd24" stroke-width="7" opacity=".85"/>
+                <path d="M35 222C126 133 199 253 285 165S405 68 476 113" fill="none" stroke="#123477" stroke-width="3"/>
+              </svg>
+              <svg class="tool-art" viewBox="0 0 220 190" role="img" aria-labelledby="brush-art-title">
+                <title id="brush-art-title">Lorem ipsum dolor sit amet</title>
+                <g transform="rotate(36 110 95)">
+                  <path d="M110 56v100" fill="none" stroke="#e5233c" stroke-width="16" stroke-linecap="round"/>
+                  <path d="M101 53h18M101 65h18" fill="none" stroke="#f4bd21" stroke-width="3"/>
+                  <path d="M100 58c-1-18 2-29 10-42 9 13 12 24 10 42z" fill="#122b70"/>
+                  <path d="M104 54c2-13 3-20 6-29M110 54V19m6 35c-2-13-3-20-6-29" fill="none" stroke="#168bd0" stroke-width="2"/>
+                  <path d="M102 154h16v13a8 8 0 0 1-16 0z" fill="#17264f"/>
+                </g>
+              </svg>
+            </div>
+            <div class="tool-details">
+              <p class="tool-category">01 — LOREM IPSUM</p>
+              <h3 id="tool-brush-title">Lorem ipsum</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <ul class="tool-features">
+                <li>Lorem ipsum</li>
+                <li>Dolor sit amet</li>
+                <li>Consectetur adipiscing</li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="tool-section tool-section-roller" aria-labelledby="tool-roller-title">
+            <div class="tool-visual">
+              <span class="tool-number">02</span>
+              <svg class="tool-paint-trail" viewBox="0 0 500 360" aria-hidden="true">
+                <path d="M12 235C108 154 173 253 270 169S398 105 492 142" fill="none" stroke="#f0bd24" stroke-width="39" opacity=".48"/>
+                <path d="M14 229C112 149 185 247 278 165S401 99 489 135" fill="none" stroke="#15945b" stroke-width="17" opacity=".72"/>
+                <path d="M24 247C116 172 183 261 279 181S397 115 480 151" fill="none" stroke="#168bd0" stroke-width="5"/>
+                <path d="M50 225C139 164 203 237 293 169S401 113 469 140" fill="none" stroke="#fff9ec" stroke-width="3" opacity=".9"/>
+              </svg>
+              <svg class="tool-art" viewBox="0 0 220 190" role="img" aria-labelledby="roller-art-title">
+                <title id="roller-art-title">Lorem ipsum dolor sit amet</title>
+                <g transform="rotate(-32 110 95)">
+                  <rect x="61" y="46" width="91" height="32" rx="14" fill="#168bd0"/>
+                  <path d="M72 50v24m12-24v24m12-24v24m12-24v24m12-24v24m12-24v24m12-24v24" stroke="#9bdaf0" stroke-width="2" opacity=".8"/>
+                  <path d="M137 77h14v43a15 15 0 0 1-15 15h-9" fill="none" stroke="#17264f" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M128 132v36" fill="none" stroke="#e5233c" stroke-width="13" stroke-linecap="round"/>
+                  <path d="M122 146h12" stroke="#f4bd21" stroke-width="3" stroke-linecap="round"/>
+                </g>
+              </svg>
+            </div>
+            <div class="tool-details">
+              <p class="tool-category">02 — DOLOR SIT AMET</p>
+              <h3 id="tool-roller-title">Dolor sit amet</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <ul class="tool-features">
+                <li>Lorem ipsum</li>
+                <li>Dolor sit amet</li>
+                <li>Consectetur adipiscing</li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="tool-section tool-section-knife" aria-labelledby="tool-knife-title">
+            <div class="tool-visual">
+              <span class="tool-number">03</span>
+              <svg class="tool-paint-trail" viewBox="0 0 500 360" aria-hidden="true">
+                <path d="M5 234C93 191 152 108 236 173S359 282 495 132" fill="none" stroke="#15945b" stroke-width="29" opacity=".48"/>
+                <path d="M11 220C101 179 158 104 239 164S363 269 489 121" fill="none" stroke="#e94f87" stroke-width="13" opacity=".74"/>
+                <path d="M24 249C112 205 171 136 247 184S366 287 481 151" fill="none" stroke="#168bd0" stroke-width="6"/>
+                <path d="M45 218C123 183 173 125 240 169S355 260 468 127" fill="none" stroke="#f0bd24" stroke-width="3"/>
+              </svg>
+              <svg class="tool-art" viewBox="0 0 220 190" role="img" aria-labelledby="knife-art-title">
+                <title id="knife-art-title">Lorem ipsum dolor sit amet</title>
+                <g transform="rotate(34 110 95)">
+                  <path d="M110 76v91" fill="none" stroke="#17264f" stroke-width="14" stroke-linecap="round"/>
+                  <path d="M103 145h14" stroke="#f4bd21" stroke-width="3" stroke-linecap="round"/>
+                  <path d="M110 76c-8-12-30-29-45-36-5-3-10 2-7 7 9 17 25 36 42 46 6 3 13-1 13-8z" fill="#d9e8e8" stroke="#168bd0" stroke-width="3"/>
+                  <path d="M64 45c10 9 21 21 32 35" fill="none" stroke="#fff" stroke-width="2" opacity=".8"/>
+                  <path d="M104 165h12" stroke="#e5233c" stroke-width="3" stroke-linecap="round"/>
+                </g>
+              </svg>
+            </div>
+            <div class="tool-details">
+              <p class="tool-category">03 — CONSECTETUR</p>
+              <h3 id="tool-knife-title">Consectetur adipiscing</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <ul class="tool-features">
+                <li>Lorem ipsum</li>
+                <li>Dolor sit amet</li>
+                <li>Consectetur adipiscing</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <p class="tools-footnote"><span>01—03</span> LOREM IPSUM DOLOR SIT AMET.</p>
+      </section>
+
+      <footer class="ending">
+        <p class="eyebrow"><span></span> LOREM IPSUM DOLOR</p>
+        <p class="ending-title">Lorem ipsum<br><em>dolor sit amet.</em></p>
+        <a class="back-to-top" href="#inicio">LOREM IPSUM <span aria-hidden="true">↑</span></a>
+        <span class="ending-note">LOREM IPSUM DOLOR SIT AMET.</span>
+      </footer>
+    </main>
+  </body>
+</html>
